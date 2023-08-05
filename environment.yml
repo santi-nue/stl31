@@ -1,12 +1,13 @@
 channels:
   - conda-forge
+  - default
 dependencies:
   - python=3.9.7
   - websockify
   - pip
-  - PyQt6==6.5.1
-  - PyQt6-Qt6==6.5.1
-  - PyQt6-sip==13.5.1  
   - pip:
       - testresources
+      - PyQt6==6.5.1
+      - PyQt6-Qt6==6.5.1
+      - PyQt6-sip==13.5.1       
       - jupyter-remote-desktop-proxy
